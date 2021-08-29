@@ -1,0 +1,53 @@
+.TodoList {
+    margin: 4rem auto;
+    padding: 2rem 3rem 3rem;
+    max-width: 600px;
+    background:#54bbff;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.TodoList ul {
+    margin-top: 2.6rem;
+    list-style: none;
+}
+
+.TodoList h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.TodoList h1 span {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
+    margin-left: 3px;
+    margin-top: 0.2rem;
+}
+
+.todo-enter, .todo-exit-active {
+   opacity: 0;
+}
+
+
+.todo-enter-active, .todo-exit  {
+    opacity: 1;
+}
+
+.Todo .Todo-buttons i {
+    display: inline-block;
+}
+
+.form-enter {
+    position: absolute;
+}
+
+
+.form-enter-active, .form-exit, .form-exit-active, .task-text-enter, .task-text-enter-active , .task-text-exit,  .task-text-exit-active {
+  position: absolute;
+}
+
